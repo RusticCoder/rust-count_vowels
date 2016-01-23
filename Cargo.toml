@@ -1,0 +1,13 @@
+[package]
+name = "count_vowels"
+version = "0.1.0"
+authors = ["Rustic Coder <RusticCoder@gmail.com>"]
+
+[dependencies]
+handlebars = "*"
+hyper = "*"
+log = "*"
+rustc-serialize = "*"
+serde_json="*"
+time = "*"
+url="*"

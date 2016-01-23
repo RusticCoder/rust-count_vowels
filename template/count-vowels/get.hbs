@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Vowel Counter</title>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   </head>
+   <body>
+      <h1>Welcome to the Vowel Counter</h1>
+      <p>Enter word or phrase below such as &quot;Lorem ipsum dolor sit amet&quot;, then click Count.</p>
+      <p>The phrase must be no longer then 255 characters.</p>
+      <form id="form" name="form" method="POST">
+         <div>
+            <textarea id="input_area" name="input_area">{{#block "input_area_value" }}{{/block}}</textarea>
+         </div>
+         <script type="text/javascript">
+            // Place the cursor in the text box when the text box is available.
+            $('#input_area').focus();
+         </script>
+         <p>Characters remaining <span id="count">255</span> of 255.</p>
+         <button id="submit_button" name="submit_button" type="submit">Count</button>
+      </form>
+      {{#block "results" }}{{/block}}
+   </body>
+</html>
+<script type="text/javascript">
+   function post_user_data (input_area) {
+      var input_object = Object.create(null);
+      input_object[input_area.attr("name")] = input_area.val();
+
+      $.ajax({
+         type: 'POST',
+         url: "/characters_remaining",
+         dataType: 'json',
+         data: JSON.stringify(input_object) + "\0",
+         success: function (msg) {
+            console.debug(msg);
+            $('#count').html(msg);
+         }
+      });
+   }
+
+   // Characters remaining makes a ajax call on key up to update the available number of characters.
+   $('#input_area').keyup(function() {
+      setTimeout(post_user_data ($(this)), 0);
+   });
+</script>
