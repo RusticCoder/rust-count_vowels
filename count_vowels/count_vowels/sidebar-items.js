@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["get_response","Accept a HTTP request and return the appropriate HTTP response."]],"struct":[["XFrameOptions","Avoid Clickjacking attacks, by ensuring that their content is not embedded into other sites."],["XXssProtection","Force/Disable XSS protection"]]});

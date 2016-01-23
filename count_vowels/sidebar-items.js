@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["count_vowels","A function that will convert a request into a response that can be used to submit a request to the server.  This function counts the number of vowels in the text and it reports a sum of each vowel found."]]});
