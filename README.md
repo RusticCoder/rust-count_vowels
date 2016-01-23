@@ -16,6 +16,10 @@ This application will have a single URL, with a GET request that offers a blank 
 
 The intent is to be very strict.  Most web sites are very forgiving as far as case sensitivity, http methods, and query string parameters.  This application looks for an exact match.
 
+## Project Status
+
+[Project status of what's done, what's left](//github.com/RusticCoder/rust-count_vowels/blob/master/TODO_development.md)
+
 ## Building from Source (Based on Linux Mint 17.2 Live CD)
 
 1. Install dependencies
@@ -91,6 +95,6 @@ Copyright (c) 2016 Rustic Coder
 
 [Rust]: //www.rust-lang.org
 [Handlebars]: //sunng.info/handlebars-rust/handlebars/index.html
-[Hyper]: //hyper.rs/hyper/hyper/index.html
+[Hyper]: http://hyper.rs/hyper/hyper/index.html
 [Count Vowels Issues]: //github.com/RusticCoder/rust-count_vowels/issues/new
 [General Feedback]: //github.com/RusticCoder/Feedback/issues/new
