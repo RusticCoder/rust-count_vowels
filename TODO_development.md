@@ -2,9 +2,9 @@
 
 A list of tasks that should be completed before the project is considered finished and ready for production.
 
-  - [x] [Add/Update Comments](#CommentingCode)
-    - [x] [Add/Update README.md](#AddUpdateREADME.md)
-    - [x] [Add/Update the code comments](#AddUpdatethecodecomments)
+  - [x] [Add/Update Comments](#commenting-code)
+    - [x] [Add/Update README.md](#addupdate-readmemd)
+    - [x] [Add/Update the code comments](#addupdate-the-code-comments)
     - [x] [Add/Update project site](//pages.github.com/#vanilla-step-1)
   - [ ] Testing
       Adding and updating test cases also allows the developer to take a step back and review a working solution in order to make it better.  Improve the design, refactor to improve the usability and maintainability.
