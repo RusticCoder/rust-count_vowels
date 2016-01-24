@@ -61,7 +61,7 @@ A list of tasks that should be completed before the project is considered finish
 
     [CSRF cheat sheet](//www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
 
-    [Prevent HTML form tampering](http://advosys.ca/papers/web/60-form-tampering.html)
+    [Prevent HTML form tampering](http://www.cgisecurity.com/lib/form-tampering.pdf)
 
     [Setup SSL on IIS 7](//support.microsoft.com/kb/299875)
 
@@ -78,7 +78,7 @@ A list of tasks that should be completed before the project is considered finish
 
 ## Checklists
 
-  [Web Developer Checklist](//webdevchecklist.com/)
+  [Web Developer Checklist](http://webdevchecklist.com/)
 
   [Web Dev Checklist](//trello.com/b/hkC4B6HA/web-dev-checklist)
 
@@ -88,9 +88,9 @@ A list of tasks that should be completed before the project is considered finish
 
   [45 Incredibly Useful Web Design Checklists and Questionnaires](//www.smashingmagazine.com/2009/06/45-incredibly-useful-web-design-checklists-and-questionnaires/)
 
-  [24 Useful Web Design Checklists](//www.yoarts.com/web-design-checklists/)
+  [24 Useful Web Design Checklists](http://www.yoarts.com/web-design-checklists/)
 
-  [24 Useful Web Design Checklists](//www2.cdc.gov/cdcup/library/practices_guides/CDC_UP_Project_Close-Out_Practices_Guide.pdf)
+  [24 Useful Web Design Checklists](http://www2.cdc.gov/cdcup/library/practices_guides/CDC_UP_Project_Close-Out_Practices_Guide.pdf)
 
 ## Commenting Code
 
@@ -105,9 +105,13 @@ A list of tasks that should be completed before the project is considered finish
   [Successful Strategies for Commenting Code](//www.particletree.com/features/successful-strategies-for-commenting-code/)
 
   http://www.hongkiat.com/blog/source-code-comment-styling-tips/
+
   http://improvingsoftware.com/2011/06/27/5-best-practices-for-commenting-your-code/
+
   http://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118
+
   http://javarevisited.blogspot.com/2011/08/code-comments-java-best-practices.html
+
   http://dzone.com/articles/5-best-practices-commenting
 
 ### Add/Update README.md
@@ -126,8 +130,8 @@ A list of tasks that should be completed before the project is considered finish
 
 ## Best Practices
 
-  [TOP 10 BEST PRACTICES FOR FRONT-END WEB DEVELOPERS](//www.catswhocode.com/blog/top-10-best-practices-for-front-end-web-developers)
+  [TOP 10 BEST PRACTICES FOR FRONT-END WEB DEVELOPERS](http://www.catswhocode.com/blog/top-10-best-practices-for-front-end-web-developers)
 
 ## Project Planning
 
-  [Importance of Project Planning](//academicsuccess.interactivityfoundationwiki.wikispaces.net/Importance+of+Project+Planning)
+  [Importance of Project Planning](http://academicsuccess.interactivityfoundationwiki.wikispaces.net/Importance+of+Project+Planning)
