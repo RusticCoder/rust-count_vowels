@@ -71,7 +71,7 @@ Tested on:
 | Platform \ Architecture        | x86 | x86_64 |
 |--------------------------------|-----|--------|
 | Windows (7, 8, Server 2008 R2) |     |        |
-| Linux (Mint 17.2)              |     |   ✓    |
+| Linux (Mint 17.2)              |     |    ✓   |
 | OSX (10.7 Lion or later)       |     |        |
 
 You may find that other platforms work, but this is my officially supported build environment that is most likely to work.
@@ -94,7 +94,7 @@ Submit an issue and I'll get back to you.
 Copyright (c) 2016 Rustic Coder
 
 [Rust]: //www.rust-lang.org
-[Handlebars]: //sunng.info/handlebars-rust/handlebars/index.html
-[Hyper]: http://hyper.rs/hyper/hyper/index.html
+[Handlebars]: //github.com/sunng87/handlebars-rust/blob/master/README.md
+[Hyper]: //github.com/hyperium/hyper/blob/master/README.md
 [Count Vowels Issues]: //github.com/RusticCoder/rust-count_vowels/issues/new
-[General Feedback]: //github.com/RusticCoder/Feedback/issues/new
+[General Feedback]: //github.com/RusticCoder/feedback/issues/new
