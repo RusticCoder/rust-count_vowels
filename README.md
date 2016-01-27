@@ -18,7 +18,7 @@ The intent is to be very strict.  Most web sites are very forgiving as far as ca
 
 ## Documentation
 
-http://rusticcoder.github.io/rust-count_vowels/count_vowels/index.html
+[Project API Documentation](http://rusticcoder.github.io/rust-count_vowels/count_vowels/index.html)
 
 ## Project Status
 
@@ -93,7 +93,7 @@ Submit an issue and I'll get back to you.
 
 ## Copyright License
 
-[LICENSE](//github.com/RusticCoder/rust-count_vowels/blob/master/LICENSE.md#readme)
+[Copyright License](//github.com/RusticCoder/rust-count_vowels/blob/master/LICENSE.md#readme)
 
 Copyright (c) 2016 Rustic Coder
 
