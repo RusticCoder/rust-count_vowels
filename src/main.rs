@@ -20,7 +20,7 @@
 //! 
 //! # Usage
 //! 
-//! See: https://github.com/RusticCoder/rust-count_vowels#readme
+//! See: https://github.com/RusticCoder/rust-count_vowels/blob/master/README.md#readme
 
 extern crate handlebars;
 #[macro_use]
