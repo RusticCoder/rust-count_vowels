@@ -13,7 +13,6 @@
             <textarea id="input_area" name="input_area">{{#block "input_area_value" }}{{/block}}</textarea>
          </div>
          <script type="text/javascript">
-            // Place the cursor in the text box when the text box is available.
             $('#input_area').focus();
          </script>
          <p>Characters remaining <span id="count">255</span> of 255.</p>
@@ -23,7 +22,11 @@
    </body>
 </html>
 <script type="text/javascript">
+   // Function that will make a ajax call to update the available number of
+   // characters.
    function post_user_data (input_area) {
+      $('#count').html('?');
+
       var input_object = Object.create(null);
       input_object[input_area.attr("name")] = input_area.val();
 
@@ -33,13 +36,18 @@
          dataType: 'json',
          data: JSON.stringify(input_object) + "\0",
          success: function (msg) {
-            console.debug(msg);
-            $('#count').html(msg);
+            // The Ajax calls do not come back in any particular order.
+            // Check to make sure the result is for the current string
+            // in the input area.
+            if($('#input_area').val() == msg.input_area) {
+               $('#count').html(msg.result);
+            }
          }
       });
    }
 
-   // Characters remaining makes a ajax call on key up to update the available number of characters.
+   // Firing off a Ajax call takes too long when someone is typing very
+   // quickly.  Execute these request asynchronously.
    $('#input_area').keyup(function() {
       setTimeout(post_user_data ($(this)), 0);
    });

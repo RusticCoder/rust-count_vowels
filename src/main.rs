@@ -1,4 +1,6 @@
-#![feature(convert, braced_empty_structs)]
+#![feature(braced_empty_structs, custom_derive)]
+#![feature(plugin)]
+#![plugin(serde_macros)]
 #![warn(missing_docs)]
 #![doc(html_logo_url = "https://rusticcoder.github.io/images/photo.jpg",
        html_favicon_url = "https://rusticcoder.github.io/favicon.ico",
@@ -28,6 +30,7 @@ extern crate hyper;
 #[macro_use]
 extern crate log;
 extern crate rustc_serialize as serialize;
+extern crate serde;
 extern crate serde_json;
 extern crate url;
 

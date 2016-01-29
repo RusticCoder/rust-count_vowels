@@ -9,11 +9,12 @@ A list of tasks that should be completed before the project is considered finish
   - [x] [README.md](#addupdate-readmemd)  
   - [x] [Project Site](//pages.github.com/#vanilla-step-1)  
   - [x] [Source Code](#addupdate-the-code-comments)  
-  - [ ] HTML  
-  - [ ] CSS  
-  - [ ] JavaScript  
+  - [x] HTML  
+  - [x] CSS  
+  - [x] JavaScript  
 - [ ] Testing  
   Adding and updating test cases also allows the developer to take a step back and review a working solution in order to make it better.  
+- [ ] Continuous Delivery  
 - [ ] Validation/Lint  
   Flag suspicious and non-portable code (likely to be bugs).  
   - [ ] HTML  
@@ -50,6 +51,12 @@ A list of tasks that should be completed before the project is considered finish
 [Comments - The Rust Reference](//doc.rust-lang.org/reference.html#comments)  
 [Comments - Rust Documentation](//doc.rust-lang.org/book/comments.html)  
 [Rust Guidelines](//aturon.github.io/style/whitespace.html)  
+
+## Continuous Delivery Test/Deploy Automation  
+[AppVeyor](//www.appveyor.com)  
+[Travis CI](//travis-ci.org)  
+
+## Validation/Lint  
 
 ### HTML  
 [Markup Validation Service](//validator.w3.org/#validate_by_input+with_options)  

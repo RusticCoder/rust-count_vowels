@@ -357,7 +357,24 @@ pub fn get_response(mut req: server::Request, res: server::Response) {
                                                             if input_area_max_len < input_area_text.len() {
                                                                send_res(res, status::StatusCode::Ok, "0".to_owned());
                                                             } else {
-                                                               send_res(res, status::StatusCode::Ok, (input_area_max_len - input_area_text.len()).to_string());
+                                                               #[derive(Debug, PartialEq, Serialize, Deserialize)]
+                                                               struct CharactersRemaining {
+                                                                  input_area: String,
+                                                                  result: usize
+                                                               }
+                                                                                    
+                                                               match serde_json::to_string (
+                                                                     &CharactersRemaining {
+                                                                        input_area: input_area_text.to_string(),
+                                                                        result: (input_area_max_len - input_area_text.len())
+                                                                     }) {
+                                                                  Err(why) => {
+                                                                     send_res(res, status::StatusCode::InternalServerError, format!("{}", why));
+                                                                  }
+                                                                  Ok(json_string) => {
+                                                                     send_res(res, status::StatusCode::Ok, json_string);
+                                                                  }
+                                                               }
                                                             }
                                                          }
                                                       }

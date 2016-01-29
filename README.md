@@ -18,7 +18,7 @@ The intent is to be very strict.  Most web sites are very forgiving as far as ca
 
 ## Documentation
 
-[Project API Documentation](http://rusticcoder.github.io/rust-count_vowels/count_vowels/index.html)
+[Project Rust Doc](http://rusticcoder.github.io/rust-count_vowels/count_vowels/index.html)
 
 ## Project Status
 
@@ -56,7 +56,7 @@ The intent is to be very strict.  Most web sites are very forgiving as far as ca
   $ cargo run
   ```
 
-5. Run
+5. Run  
   Using your favorite browser, browse to http://count-vowels.localhost.com:1337
 
 ## Building the Documentation
@@ -89,11 +89,15 @@ Submit an issue and I'll get back to you.
 
 ## Contributor Code of Conduct
 
-[Code of Conduct](//github.com/RusticCoder/rust-count_vowels/blob/master/code_of_conduct.md#readme)
+All contributors are expected to follow the [Code of Conduct].  Please read the [Code of Conduct] before contributing.
 
-## Copyright License
+## License
 
-[Copyright License](//github.com/RusticCoder/rust-count_vowels/blob/master/LICENSE.md#readme)
+Licensed under the MIT license < [LICENSE-MIT](https://github.com/RusticCoder/rust-count_vowels/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT > or the Apache License, Version 2.0 < [LICENSE-APACHE](https://github.com/RusticCoder/rust-count_vowels/blob/master/LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0 >, at your option. You may not use this file or the contents of this repository except in compliance with the License.  This file and the contents of this repository may not be copied, modified, or distributed except according to those terms.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.
 
 Copyright (c) 2016 Rustic Coder
 
@@ -102,3 +106,4 @@ Copyright (c) 2016 Rustic Coder
 [Hyper]: //github.com/hyperium/hyper/blob/master/README.md#readme
 [Count Vowels Issues]: //github.com/RusticCoder/rust-count_vowels/issues/new
 [General Feedback]: //github.com/RusticCoder/feedback/issues/new
+[Code of Conduct]: //github.com/RusticCoder/rust-count_vowels/blob/master/code_of_conduct.md#readme
