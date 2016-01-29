@@ -26,17 +26,17 @@ The intent is to be very strict.  Most web sites are very forgiving as far as ca
 
 ## Building from Source (Based on Linux Mint 17.2 Live CD)
 
-1. Install dependencies
-* Install packages
+1. Install required packages  
   ```sh
   $ sudo apt-get install build-essential curl git libssl-dev
   ```
-* [Install Nightly Rust](//doc.rust-lang.org/book/nightly-rust.html)
+
+2. [Install Nightly Rust](//doc.rust-lang.org/book/nightly-rust.html)
   ```sh
   $ curl -s https://static.rust-lang.org/rustup.sh | sh -s -- --channel=nightly
   ```
 
-2. Edit the hosts file
+3. Edit the hosts file  
   The application listens for requests to count-vowels.localhost.com
   ```sh
   $ sudo vi /etc/hosts
@@ -44,19 +44,19 @@ The intent is to be very strict.  Most web sites are very forgiving as far as ca
   There will be a line starting with "127.0.0.1" append "count-vowels.localhost.com" to the end of the line.  The resulting line will look something like the following.
 > 127.0.0.1 localhost count-vowels.localhost.com
 
-3. Clone the [source](//github.com/RusticCoder/rust-count_vowels)
+4. Clone the [source](//github.com/RusticCoder/rust-count_vowels)  
   ```sh
   $ cd ~
   $ git clone https://github.com/RusticCoder/rust-count_vowels.git
   ```
 
-4. Build
+5. Build  
   ```sh
   $ cd ~/rust-count_vowels
   $ cargo run
   ```
 
-5. Run  
+6. Run  
   Using your favorite browser, browse to http://count-vowels.localhost.com:1337
 
 ## Building the Documentation
